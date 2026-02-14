@@ -24,7 +24,7 @@ body {
 .card-header {
     position: relative;
     height: 160px;
-    background: url("images/beach.jpeg") center/cover no-repeat;
+    background: url("/images/beach.jpeg") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
