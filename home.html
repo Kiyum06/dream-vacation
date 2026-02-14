@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Vacation</title>
+    <!--favicon-->
+    <link rel="icon" href="images/beach.jpeg">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Javascript -->
+    <script src="form.js" defer></script>
+
+</head>
+    <body>
+        <div class="card">
+            <div class="card-header">
+                <h1>Book Your Dream Vacation</h1>
+            </div>
+
+            <div class="card-body">
+                <form id="vacation-form">
+
+                    <label for="destination">Destination</label>
+                    <span class="err" id="err-destination">Please select a destination!</span>
+                    <select id="destination">
+                        <option value="none">Choose a destination...</option>
+                        <option>Cox's Bazar, Bangladesh</option>
+                        <option>Bali, Indonesia</option>
+                        <option>Paris, France</option>
+                        <option>Maldives</option>
+                        <option>New York City, USA</option>
+                    </select>
+                    
+
+                    <div class="row">
+                        <div class="field">
+                            <label for="date">Departure Date</label>
+                            <input id="date" type="date" value="2026-02-13">
+                        </div>
+
+                        <div class="field">
+                            <label for="travelers">Number of Travelers</label>
+                            <span class="err" id="err-travelers">Number of travelers must be more than 0!</span>
+                            <input id="travelers" type="number" value="0" min="0">
+                            
+                        </div>
+                    </div>
+
+                    <button type="submit">Find My Vacation</button>
+
+                </form>
+                
+            </div>
+            
+        </div>
+
+        <footer class="page-footer">
+            GitHub Repository:
+            <a href="https://github.com/Kiyum06/dream-vacation" target="_blank">
+                 https://github.com/Kiyum06/dream-vacation
+            </a>
+        </footer>
+
+    </body>
+</html>
